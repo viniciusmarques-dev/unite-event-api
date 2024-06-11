@@ -31,7 +31,7 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 
 ## Documentação da API (Swagger)
 
-Você pode acessar a documentação da API clicando aqui <a href="https://nlw-unite-nodejs.onrender.com/docs">clique aqui</a>
+Você pode acessar a documentação da API <a href="https://nlw-unite-nodejs.onrender.com/docs">**clicando aqui**</a>
 
 ## Banco de dados
 
