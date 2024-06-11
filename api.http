@@ -1,0 +1,31 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "2222",
+    "details": "Test event 2",
+    "maximumAttendees": 1
+}
+
+###
+
+POST http://localhost:3333/events/019a5b11-bd35-4483-ac90-0e05375bab5a/attendees
+Content-Type: application/json
+
+{
+    "name": "Vinicius Marques",
+    "email": "vinicius@rocketseat.com.br"
+}
+
+###
+
+GET http://localhost:3333/events/c13bb755-5df3-4314-a75c-98a9c30f7310
+
+###
+GET http://localhost:3333/attendees/4/badge
+
+###
+GET http://localhost:3333/attendees/7/check-in
+
+###
+GET http://localhost:3333/events/568292a7-27ef-4caf-ac14-b06c93bb3650/attendees?query=Fred
